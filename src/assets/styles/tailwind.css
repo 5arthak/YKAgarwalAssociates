@@ -165,7 +165,43 @@ table {
   text-indent: 0; /* 1 */
   border-color: inherit; /* 2 */
 }
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 /*
 Forms
 =====
@@ -1129,7 +1165,14 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgba(14, 165, 233, var(--tw-bg-opacity));
 }
-
+.bg-Green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 158, 96, var(--tw-bg-opacity));
+}
+.bg-Green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(1, 166, 20, var(--tw-bg-opacity));
+}
 .bg-lightBlue-600 {
   --tw-bg-opacity: 1;
   background-color: rgba(2, 132, 199, var(--tw-bg-opacity));
@@ -1234,7 +1277,10 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgba(51, 65, 85, var(--tw-bg-opacity));
 }
-
+.bg-blueGreen-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 158, 96, var(--tw-bg-opacity));
+}
 .bg-blueGray-800 {
   --tw-bg-opacity: 1;
   background-color: rgba(30, 41, 59, var(--tw-bg-opacity));
@@ -1487,7 +1533,10 @@ select {
 .font-semibold {
   font-weight: 600;
 }
-
+.font-semibold-white {
+  font-weight: 600;
+  color: #fff;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -1527,7 +1576,9 @@ select {
 .h-auto {
   height: auto;
 }
-
+.h-290-px {
+  height: 290px;
+}
 .h-full {
   height: 100%;
 }
@@ -2203,11 +2254,15 @@ select {
 .left-auto {
   left: auto;
 }
-
+.-left-200-px {
+  left: -200px;
+}
 .-right-100 {
   right: -100%;
 }
-
+.-top-250-px{
+  top: 250px;
+}
 .-top-225-px {
   top: -225px;
 }
@@ -2251,7 +2306,9 @@ select {
 .left-145-px {
   left: 145px;
 }
-
+.left-130-px {
+  left: 130px;
+}
 .left-195-px {
   left: 195px;
 }

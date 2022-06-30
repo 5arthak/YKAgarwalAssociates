@@ -172,7 +172,7 @@ export default function Index() {
                 <i className="fas fa-fingerprint"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Our Core Team 
+                Our Team 
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
               The core team of the firm comprises of Chartered Accountants, lawyers and banking professionals having diverse experience ranging from taxation, audit, business consultancy, information technology, corporate laws and financing. The profile of the partners of the firm is as follows:
@@ -182,7 +182,7 @@ export default function Index() {
                 target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
-                Refer to cards for <b>More Info</b>{" "}
+                Refer to the cards for <b>More Info</b>{" "}
                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
               </a>
             </div>
@@ -196,13 +196,13 @@ export default function Index() {
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-profile-card.png").default}
-                  className="w-full align-middle rounded-lg absolute shadow-lg -top-160-px left-260-px max-w-210-px"
+                  src={require("assets/img/component-info-card.png").default}
+                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px -top-225-px left-150-px z-2"
                 />
                 <img
                   alt="..."
-                  src={require("assets/img/component-info-card.png").default}
-                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px -top-225-px left-40-px z-2"
+                  src={require("assets/img/component-profile-card.png").default}
+                  className="w-full align-middle rounded-lg absolute shadow-lg -top-160-px left-260-px max-w-210-px"
                 />
                 <img
                   alt="..."
@@ -212,7 +212,7 @@ export default function Index() {
                 <img
                   alt="..."
                   src={require("assets/img/component-menu.png").default}
-                  className="w-full align-middle rounded absolute shadow-lg max-w-580-px -left-20-px top-210-px"
+                  className="w-full align-middle rounded absolute shadow-lg max-w-100-px -top-250-px left-130-px"
                 />
                 <img
                   alt="..."
@@ -235,10 +235,9 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
-                      />
+                        src={require("assets/img/startup.png").default}                      />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Svelte
+                        Business Startups
                       </p>
                     </div>
                   </a>
@@ -250,10 +249,9 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
-                      />
+                        src={require("assets/img/audit.png").default}/>
                       <p className="text-lg text-white mt-4 font-semibold">
-                        ReactJS
+                        Audits
                       </p>
                     </div>
                   </a>
@@ -265,10 +263,9 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
-                      />
+                        src={require("assets/img/taxation.png").default}/>
                       <p className="text-lg text-white mt-4 font-semibold">
-                        NextJS
+                        Taxation
                       </p>
                     </div>
                   </a>
@@ -282,10 +279,9 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
-                      />
+                        src={require("assets/img/law.png").default}/>
                       <p className="text-lg text-white mt-4 font-semibold">
-                        JavaScript
+                        Company Law Matters
                       </p>
                     </div>
                   </a>
@@ -297,10 +293,9 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
-                      />
+                        src={require("assets/img/fundraise.png").default}/>
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Angular
+                        Fund Raising
                       </p>
                     </div>
                   </a>
@@ -312,10 +307,9 @@ export default function Index() {
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
-                      />
+                        src={require("assets/img/due.png").default}/>
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Vue.js
+                      Due Diligence & Field Investigation
                       </p>
                     </div>
                   </a>
@@ -325,52 +319,27 @@ export default function Index() {
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
               <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-drafting-compass text-xl"></i>
+                <i className="fas fa-file-alt text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Javascript Components
+                Our Services
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                In order to create a great User Experience some components
-                require JavaScript. In this way you can manipulate the elements
-                on the page and give more options to your users.
+              The firm has identified the critical parameters for any organization’s success. 
+              Parameters range from optimum utilization of resources to legal compliances. 
+              Based on the diverse business requirements, our firm is capable of providing 
+              various financial services to enable businesses to achieve growth and financial stability.
+
+
               </p>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                We created a set of Components that are dynamic and come to help
-                you.
-              </p>
-              <div className="block pb-6">
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Alerts
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Dropdowns
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Menus
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Modals
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Navbars
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Popovers
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tabs
-                </span>
-                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-white uppercase last:mr-0 mr-2 mt-2">
-                  Tooltips
-                </span>
-              </div>
+              We are looking forward to guiding you to ensure financial growth and success.              </p>
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
                 target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
-                View all{" "}
+                Contact Us{" "}
                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
               </a>
             </div>
@@ -385,25 +354,27 @@ export default function Index() {
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
-                  Complex Documentation
+                  Why choose us?
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
+                Planning the business resources coupled with compliances of 
+                law has become a challenge today. The above requires extensive
+                theoretical knowledge and practical experience. The partners 
+                and team mebers of <b>Y.K. Agarwal & Associates</b> have sound 
+                knowledge and skills to help you and your finances.
+
                 </p>
                 <ul className="list-none mt-6">
-                  <li className="py-2">
+                <li className="py-2">
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fas fa-fingerprint"></i>
+                        <i className="far fa-paper-plane"></i>
                         </span>
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Built by Developers for Developers
+                          Right Team, Right Experience.
                         </h4>
                       </div>
                     </div>
@@ -412,12 +383,26 @@ export default function Index() {
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                          <i className="fab fa-html5"></i>
+                        <i className="far fa-paper-plane"></i>
                         </span>
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Carefully crafted code for Components
+                          Personal and Legitimate Treatment for Each Client.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                        <i className="far fa-paper-plane"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Guaranteed Accuracy and Impartiality. 
                         </h4>
                       </div>
                     </div>
@@ -431,7 +416,35 @@ export default function Index() {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Dynamic Javascript Components
+                          Years of Inestimable Experience.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i className="far fa-paper-plane"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Strict Confidentiality and Data Privacy Meausres.
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i className="far fa-paper-plane"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          And much more...
                         </h4>
                       </div>
                     </div>
@@ -448,7 +461,7 @@ export default function Index() {
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src={require("assets/img/documentation.png").default}
+                src={require("assets/img/documentation2.jpg").default}
               />
             </div>
           </div>
@@ -456,11 +469,11 @@ export default function Index() {
 
         <div className="justify-center text-center flex flex-wrap mt-24">
           <div className="w-full md:w-6/12 px-12 md:px-4">
-            <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
+            <h2 className="font-semibold text-4xl">Some of Our Valuable Clients</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Notus React is a completly new product built using our past
-              experience in web templates. Take the examples we made for you and
-              start playing with them.
+            Our firm is constantly functioning to help individuals 
+            and businesses succeed in their endeavours. Some of our 
+            many esteemed clients are listed below .
             </p>
           </div>
         </div>
@@ -471,46 +484,129 @@ export default function Index() {
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
               <div className="flex flex-wrap">
-                <div className="w-full lg:w-4/12 px-4">
+              <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Login Page
+                    Numerous Indian Banks
                   </h5>
-                  <Link to="/auth/login">
+                  <Link to="https://nagarnigambareily.com/">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/login.jpg").default}
+                        src={require("assets/img/banks.png").default}
                       />
                     </div>
                   </Link>
                 </div>
-
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Profile Page
+                    Nagar Nigam - Bareilly
                   </h5>
-                  <Link to="/profile">
+                  <Link to="https://nagarnigambareilly.com/">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/profile.jpg").default}
+                        src={require("assets/img/nagarnigam.png").default}
                       />
                     </div>
                   </Link>
                 </div>
-
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Landing Page
+                    Bareilly Smart City Limited
                   </h5>
-                  <Link to="/landing">
+                  <Link to="http://bareillysmartcity.in/"> 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/landing.jpg").default}
+                        src={require("assets/img/smartcity.png").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold-white pb-4 text-center">
+                    M.J.P Rohilkhand Univeristy - Bareilly
+                  </h5>
+                  <Link to="/https://www.mjpru.ac.in/">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/university.png").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold-white pb-4 text-center">
+                    The Indian Turpentine And Rosins Limited
+                  </h5>
+                  <Link to="/https://jkj/">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/itr.png").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold-white pb-4 text-center">
+                    Aakash Buildtech Private Limited
+                  </h5>
+                  <Link to="/https://www.mru.ac.in/">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/abt.png").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold-white pb-4 text-center">
+                    Rannlab Technologies Private Limited
+                  </h5>
+                  <Link to="/https://www.mjpru.ac.in/">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/rannlab.png").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold-white pb-4 text-center">
+                    Khandelwal Metal Industries Pvt. Ltd.
+                  </h5>
+                  <Link to="/https://www.mjpru.ac.in/">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/khandelwal.png").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold-white pb-4 text-center">
+                    List goes on...
+                  </h5>
+                  <Link to="/https://www.mjpru.ac.in/">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-290-px rounded-lg"
+                        src={require("assets/img/list.gif").default}
+                        width = "800px" height= "290px"
                       />
                     </div>
                   </Link>
@@ -522,46 +618,6 @@ export default function Index() {
       </section>
 
       <section className="py-20 bg-blueGray-600 overflow-hidden">
-        <div className="container mx-auto pb-64">
-          <div className="flex flex-wrap justify-center">
-            <div className="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                <i className="fas fa-code-branch text-xl"></i>
-              </div>
-              <h3 className="text-3xl mb-2 font-semibold leading-normal text-white">
-                Open Source
-              </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-400">
-                Since{" "}
-                <a
-                  href="https://tailwindcss.com/?ref=creativetim"
-                  className="text-blueGray-300"
-                  target="_blank"
-                >
-                  Tailwind CSS
-                </a>{" "}
-                is an open source project we wanted to continue this movement
-                too. You can give this version a try to feel the design and also
-                test the quality of the code!
-              </p>
-              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">
-                Get it free on Github and please help us spread the news with a
-                Star!
-              </p>
-              <a
-                href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
-                target="_blank"
-                className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
-              >
-                Github Star
-              </a>
-            </div>
-
-            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
-              <i className="fab fa-github text-blueGray-700 absolute -top-150-px -right-100 left-auto opacity-80 text-55"></i>
-            </div>
-          </div>
-        </div>
       </section>
 
       <section className="pb-16 bg-blueGray-200 relative pt-32">
@@ -590,16 +646,16 @@ export default function Index() {
             <div className="w-full text-center lg:w-8/12">
               <p className="text-4xl text-center">
                 <span role="img" aria-label="love">
-                  😍
+                  🤝 
                 </span>
               </p>
               <h3 className="font-semibold text-3xl">
-                Do you love this Starter Kit?
+                If you've got questions, We are here to help!
               </h3>
               <p className="text-blueGray-500 text-lg leading-relaxed mt-4 mb-4">
-                Cause if you do, it can be yours now. Hit the buttons below to
-                navigate to get the Free version for your next project. Build a
-                new web app or give an old project a new look!
+              Doing everything on our own can be cumbersome.<br/>
+              Get in touch, and maybe we can help you and 
+              your business prosper.
               </p>
               <div className="sm:block flex flex-col mt-10">
                 <a
@@ -607,15 +663,15 @@ export default function Index() {
                   target="_blank"
                   className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-lightBlue-500 active:bg-lightBlue-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
-                  Get started
+                  Contact Us
                 </a>
                 <a
-                  href="https://github.com/creativetimofficial/notus-react?ref=nr-index"
+                  href="https://github.com/creativetimofficial/notus-react?ref=nrindex"
                   target="_blank"
-                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
+                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGreen-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
                 >
-                  <i className="fab fa-github text-lg mr-1"></i>
-                  <span>Help With a Star</span>
+                  <i className="fab fa-whatsapp text-lg mr-1"></i>
+                  <span>Connect on WhatsApp</span>
                 </a>
               </div>
               <div className="text-center mt-16"></div>
