@@ -32,19 +32,19 @@ const IndexDropdown = () => {
         More Info
       </Link>
       <Link
-          to="/profile"
+          to="/testimonials"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
         Testimonials</Link>
 
         <Link
-          to="/profile"
+          to="/jobs"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
         Jobs
       </Link>
       <Link
-          to="/profile"
+          to="/contact"
           className="text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
         >
         Contact Us
